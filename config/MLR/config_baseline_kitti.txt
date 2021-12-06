@@ -1,0 +1,27 @@
+[DEFAULT]
+num_points = 4096
+
+dataset_folder = ./benchmark_datasets
+queries_folder = ./generating_queries/pickles
+
+[TRAIN]
+num_workers = 8
+batch_size = 16
+batch_size_limit = 128
+batch_expansion_rate = 1.4
+batch_expansion_th = 0.7
+
+use_unet = False
+
+lr = 1e-3
+epochs = 40
+scheduler_milestones = 30
+
+aug_mode = 1
+weight_decay = 1e-3
+
+loss = BatchHardTripletMarginLoss
+normalize_embeddings = False
+margin = 0.2
+
+train_file = kitti_training_queries_baseline.pickle

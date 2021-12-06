@@ -1,0 +1,4 @@
+minkloc3d.txt, config_baseline.txt, model_MinkFPN_GeM_20210527_2234, 100.00, 100.00, 100.00, 100.00
+minkloc3d.txt, config_baseline.txt, model_MinkFPN_GeM_20210527_2331, 100.00, 100.00, 100.00, 100.00
+minkloc3d.txt, config_baseline.txt, model_MinkFPN_GeM_20210528_0958, 100.00, 100.00, 100.00, 100.00
+minkloc3d.txt, config_baseline.txt, model_MinkFPN_GeM_20210528_1842, 100.00, 100.00, 100.00, 100.00
